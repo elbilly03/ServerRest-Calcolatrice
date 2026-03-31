@@ -6,7 +6,7 @@ package serverrest;
 
 /**
  *
- * @author delfo
+ * @author billy
  */
 public class OperazioneRequest {
     private double operando1;
