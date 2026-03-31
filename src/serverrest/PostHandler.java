@@ -115,7 +115,7 @@ public class PostHandler implements HttpHandler {
     private void inviaErrore(HttpExchange exchange, int codice, String messaggio) 
             throws IOException {
         
-        Map errore = new HashMap<>();
+        Map<Object, Object> errore = new HashMap<>();
         errore.put("errore", messaggio);
         errore.put("status", codice);
         

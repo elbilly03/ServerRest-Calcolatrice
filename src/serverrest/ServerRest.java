@@ -76,17 +76,17 @@ public class ServerRest {
     private static void gestisciBenvenuto(HttpExchange exchange) throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         
-        Map info = new HashMap<>();
+        Map<Object, Object> info = new HashMap<>();
         info.put("messaggio", "Benvenuto alla Calcolatrice REST API");
         info.put("versione", "2.0.0");
         info.put("tecnologia", "Java + GSON");
         
-        Map endpoints = new HashMap<>();
+        Map<Object, Object> endpoints = new HashMap<>();
         endpoints.put("POST", "/api/calcola/post");
         endpoints.put("GET", "/api/calcola/get?operando1=X&operando2=Y&operatore=OP");
         info.put("endpoints", endpoints);
         
-        Map operatori = new HashMap<>();
+        Map<Object, Object> operatori = new HashMap<>();
         operatori.put("somma", "SOMMA o +");
         operatori.put("sottrazione", "SOTTRAZIONE o -");
         operatori.put("moltiplicazione", "MOLTIPLICAZIONE o * o X");
