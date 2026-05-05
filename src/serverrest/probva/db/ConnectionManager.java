@@ -9,7 +9,7 @@ public class ConnectionManager {
     private static final String URL =
         "jdbc:mysql://localhost:3306/anagrafica_db?useSSL=false&serverTimezone=UTC";
     private static final String USER     = "root";
-    private static final String PASSWORD = "la_tua_password";
+    private static final String PASSWORD = "";
 
     /**
      * Restituisce una nuova connessione al database.

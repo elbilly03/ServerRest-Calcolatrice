@@ -1,4 +1,4 @@
-package serverrest;
+package serverrest.dsagvdz;
 
 public class Arnie {
     private String _id;

@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 
-package serverrest;
+package serverrest.dsagvdz;
 
 /**
  * Entry point dell'applicazione Calcolatrice REST
